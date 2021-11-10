@@ -1,0 +1,164 @@
+body
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  background-color: #000000;
+background-image: url("https://transparenttextures.com/patterns/diagmonds.png");
+  color: white;
+  cursor: pointer;
+
+}
+
+
+.headImg{
+  margin-left: 31%;
+  margin-top: 55px;
+}
+
+.dishImg{
+  margin-top: 8%;
+  margin-left: 16%;
+}
+
+h1
+{
+    color:rgb(211, 211, 111) ;
+
+
+    font-size: 6.5em;
+
+}
+#h3First
+{
+
+    color: rgb(137, 241, 127);
+    font-size: 5em;
+
+text-align: center;
+
+font-weight: bold;
+margin-top: 73px;
+margin-left: 47px;
+
+}
+#h3Second{
+  color: rgb(137, 241, 127);
+  font-size: 5em;
+
+text-align: center;
+
+font-weight: bold;
+margin-top: 73px;
+  margin-left: 255px;
+
+}
+#h3Third{
+
+  color: rgb(137, 241, 127);
+  font-size: 5em;
+
+text-align: center;
+
+font-weight: bold;
+margin-top: 49px;
+  margin-left: 23px;
+
+}
+.navList{
+  font-size: 26px;
+}
+img{
+
+  width: 32%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+}
+.ingredientList{
+  margin-left: 25%;
+  margin-top: 29px;
+  margin-bottom: -2%;
+}
+
+li{
+  font-size: 30px;
+  line-height: 44px;
+}
+
+
+.method{
+  width: 105%;
+  margin-left: -13%;
+}
+.methodList{
+  padding-top: 19px;
+
+  margin-left: 20%;
+}
+.nutrientList{
+  margin-left: 39%;
+  margin-bottom: 10%;
+  margin-top: 34px;
+}
+.navb{
+  margin-top: -1.2%;
+  height: 65px;
+  width:100%;
+  background-color:#C2F784;
+}
+.logo{
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.allElements{
+  position: relative;
+
+  padding-left: 52%;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.home{
+  cursor: pointer;
+  position: absolute;
+  padding-left: 173px;
+  margin-top: 14px;
+  font-weight:  bolder;
+  background-size:contain;
+}
+.aboutUs{
+  cursor: pointer;
+  position: absolute;
+  padding-left: 319px;
+  margin-top: 14px;
+  font-weight: bolder;
+  background-size:contain;
+}
+.contact{
+  cursor: pointer;
+  position: absolute;
+  padding-left: 483px;
+  margin-top: 14px;
+  font-weight: bolder;
+  background-size:contain;
+}
+.linkCards{
+    text-decoration: none;
+}
+.linkCards:hover{
+  color: black;
+  text-decoration: none;
+
+
+}
+.linkCards:visited{
+  color:grey
+  text-decoration: none;
+}
+.linkCards:active{
+    background-color:#C7BEA2;
+    text-decoration: none;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Yummy-Tummy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      padding: 0px;
+
+    }
+
+    body {
+      background-color: black;
+      font-family: 'Sacramento', cursive;
+    }
+
+    .dropDown {
+      position: absolute;
+      margin-left: 65%;
+      margin-top: 3%;
+
+    }
+
+    .selectCourse {
+      color: white;
+      font-size: 22px;
+      margin-left: 58%;
+      padding-top: 7%;
+    }
+
+    img {
+      position: absolute;
+      height: 60%;
+      width: 32%;
+      margin-left: 13%;
+      margin-top: 8%;
+    }
+
+    #divMenu,
+    ul,
+    li,
+    li li {
+      margin: 0;
+      padding: 0;
+    }
+
+    #divMenu {
+      width: 218px;
+      height: 57px;
+    }
+
+    #divMenu ul {
+      line-height: 25px;
+    }
+
+    #divMenu li {
+      list-style: none;
+      position: relative;
+      background: transparent;
+    }
+
+    #divMenu li li {
+      list-style: none;
+      position: relative;
+      background: transparent;
+      left: 220px;
+      top: -27px;
+    }
+
+    #divMenu ul li a {
+      color: #ffffff;
+      border: 1px solid #eee;
+      font-size: 24px;
+      width: 217px;
+      height: 55px;
+      display: block;
+      text-decoration: none;
+      padding-top: 1px;
+      /* margin-top: 10px; */
+      text-align: center;
+    }
+
+    #divMenu ul ul {
+      position: absolute;
+      visibility: hidden;
+      top: 27px;
+    }
+
+    #divMenu ul li:hover ul {
+      visibility: visible;
+    }
+
+    #divMenu li:hover {
+      background-color: grey;
+      color: black;
+    }
+
+    #divMenu ul li:hover ul li a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    #divMenu a:hover {
+      font-weight: bold;
+    }
+
+    .nav {
+      font-family: 'Josefin Sans', sans-serif;
+      margin-top: -9px;
+      position: absolute;
+      height: 61px;
+      width: 100%;
+      background-color: #C2F784;
+      margin-left: -8px;
+    }
+
+    .yummyTummy {
+      position: absolute;
+      margin-left: 4%;
+      margin-top: -1px;
+      font-size: 28px;
+      font-weight: 600;
+
+    }
+
+    .all {
+      position: relative;
+
+      padding-left: 52%;
+      margin-top: 15px;
+      font-size: 20px;
+    }
+
+    .element1 {
+      cursor: pointer;
+      position: absolute;
+      padding-left: 173px;
+      margin-top: 5px;
+      font-weight: bolder;
+      background-size: contain;
+    }
+
+    .element2 {
+      cursor: pointer;
+      position: absolute;
+      padding-left: 319px;
+      margin-top: 6px;
+      font-weight: bolder;
+      background-size: contain;
+    }
+
+    .element3 {
+      cursor: pointer;
+      position: absolute;
+      padding-left: 483px;
+      margin-top: 7px;
+      font-weight: bolder;
+      background-size: contain;
+    }
+
+    .link {
+      text-decoration: none;
+    }
+
+    .link:hover {
+      color: black;
+      text-decoration: none;
+    }
+
+    .link:visited {
+      color: grey text-decoration: none;
+    }
+
+    .link:active {
+      background-color: #C7BEA2;
+      text-decoration: none;
+    }
+  </style>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <img src="secondPage.png" alt="">
+  <div class="nav">
+    <ul style="list-style-type:none;">
+      <div class="yummyTummy">
+        <li><a class="link" href="#">Yummy-Tummy</a></li>
+
+      </div>
+      <div class="all">
+        <div class="element1">
+          <li><a class="link" href="#">Home</a></li>
+        </div>
+        <div class="element2">
+          <li><a class="link" href="#">About Us</a></li>
+        </div>
+        <div class="element3">
+          <li><a class="link" href="#">Contact</a></li>
+        </div>
+      </div>
+    </ul>
+  </div>
+  <div class="selectCourse">
+    <h1>Select the Course.</h1>
+  </div>
+  <div class="dropDown">
+    <div id="divMenu">
+      <ul>
+        <li><a href="#">Single Course Meal</a>
+          <ul>
+            <li><a href="chineseMain.html">Main Course</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Two Course Meal</a>
+          <ul>
+            <li><a href="chineseMain.html">Main Couse</a></li>
+            <li><a href="chineseDessert.html">Dessert</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Three Course Meal</a>
+          <ul>
+            <li><a href="chineseAppetizer.html">Appetizer</a></li>
+            <li><a href="chineseMain.html">Main Course</a></li>
+            <li><a href="chineseDessert.html">Dessert</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
